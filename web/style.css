@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Playfair+Display:700&display=swap&subset=latin-ext');
-
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+*,
+::before,
+::after {
+  box-sizing: border-box;
 }
 
-h1,
-h2 {
-  font-family: 'Playfair Display', serif;
+body {
+  background-color: lavenderblush;
+  font-family: 'Open Sans';
+  height: 100vh;
+  position: relative;
+}
+.logo {
+  width: 300px;
+  position: absolute;
+  left: calc(50% - 300px / 2);
+}
+.podlogo {
+  position: absolute;
 }
